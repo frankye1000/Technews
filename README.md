@@ -6,8 +6,10 @@ Why :
 
 Tools: 
 - Python
+  - requests
+  - python-telegram-bot
   - apscheduler
-- Telegram bot
+- Telegram
 
 Tutorial:
-- [tutorial for chatbot](https://medium.com/@frankye_22330/chatbot-django-heroku-uptimerobot-c953421dac91)
+- [tutorial for chatbot]()
