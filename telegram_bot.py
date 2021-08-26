@@ -62,7 +62,7 @@ def Commands(update, context):
 # 定時傳送最新推播
 def Broadcast(updater):
     title = "   {} 科技新報   \n".format(date.today())
-    chatid = "1093911183"
+    chatid = "your chatid"
     updater.bot.sendMessage(chat_id=chatid, text=title)
 
     newest5 = CrawlUrl("https://technews.tw/")
@@ -71,7 +71,7 @@ def Broadcast(updater):
 
 
 if __name__ == '__main__':
-    token = "1268350480:AAG-upYw59hIaq3uDS7xAJln-41I2aKMgfU"
+    token = "your bot token"
     updater = Updater(token=token, use_context=True)
 
     #commands
